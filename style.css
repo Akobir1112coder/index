@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+span, a, label {
+    display: inline-block;
+}
+.qator{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+}
+.div1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+}
+.div0{
+border-bottom: 15px solid blue;
+border-left: 7px solid transparent;
+border-right: 7px solid transparent;
+width: 10px;
+
+}
+
+.qidiruv{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+justify-content: flex-end;
+
+
+}
+.ds{
+    display: flex;
+    align-items: center;
+flex-wrap: wrap;
+justify-content: flex-end;
+}
+.a1{
+    text-decoration: none;
+    font-size: 28px;
+    background-color: yellow;
+    padding: 10px 30px;
+    position: fixed;
+    z-index: 1000;
+    color: green;
+    border-radius: 10px;
+   
+    box-shadow: 0 0 20px 4px green;
+    right: 20px;
+    bottom: 50px;
+    border: none;
+}
+.div4{
+    position: absolute;
+    width: 300px;
+    top: 100%;
+    right: 0;
+    display: none;
+}
+.qidiruv:hover .div4{
+    display: block;
+}
+.form{
+    display: flex;
+box-shadow: 0 0 10px #EBEBEB;
+  align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+
+
+}
+.h1{
+    display: none;
+    text-transform: uppercase;
+
+}
+.span1{
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn1{
+    font-size: 26px;
+    border: none;
+    background-color: white;
+}
+.label1{
+    display: flex;
+   
+    align-items: center;
+      justify-content: space-between;
+      background-color: #FFFFFF;
+      border: 3px solid black;
+   
+}
+.div8{
+    border-top: 4px solid blue;
+   
+    
+}
+.liu{
+    display: none;
+}
+.btn2{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 4px 7px;
+    font-size: 18px;
+}
+.inp1{
+    padding: 4px 7px;
+   
+    
+}
+.p1{
+    font-size: 20px;
+    line-height: 2;
+    margin-top: 30px;
+}
+.asosiy{
+    background-color: white;
+    padding: 10px 30px;
+}
+@media(max-width:700px){
+    .div1{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .qiriruv{
+        width: 100%;
+        margin-left: 40px;
+    }
+    .qator{
+        text-align: center;
+        justify-content: flex-end;
+        margin-top: 30px;
+    }
+}
+@media(max-width:620px){
+  .zd{
+    position: relative;
+    text-align: center;
+
+
+  }
+  .qator{
+    justify-content: space-between;
+  }
+  .div1{
+    position: absolute;
+    background-color: yellow;
+    padding: 10px;
+  left: 0;
+    top: 100%;
+    width: 200px;
+    display: none;
+
+  }
+  .span1{
+    width: 100%;
+  }
+  .liu{
+    display: block;
+    font-size: 25px;
+  }
+  .zd:hover .div1{
+    display: block;
+  }
+  .h1{
+    display: block;
+  }
+}
